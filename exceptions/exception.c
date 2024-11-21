@@ -113,7 +113,7 @@ int main(void) {
     // Infinite loop
     while (1) {
         // Uncomment one of the following lines to test specific faults
-        // triggerHardFault();
+        triggerHardFault();
         // triggerBusFault();
         // triggerMemManageFault();
         // triggerUsageFault();
